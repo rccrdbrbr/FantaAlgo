@@ -39,7 +39,7 @@
             </div>
             <div class="col-lg-12">
               <fieldset>
-                <button type="submit" id="form-submit" class="main-button">Registrati</button>
+                <button type="submit" id="submit" name="submit" class="main-button">Registrati</button>
               </fieldset>
             </div>
           </div>

@@ -72,7 +72,7 @@ https://templatemo.com/tm-537-art-factory
                             <li class="submenu">
                               <a href="javascript:;">Account</a>
                               <ul>
-                                <li><a href="">Login</a></li>
+                                <li><a href="login.php">Login</a></li>
                                 <li><a href="signup.php">Registrati</a></li>
                                 <!--<li><a href="">FAQ's</a></li>
                                 <li><a href="">Blog</a></li>-->

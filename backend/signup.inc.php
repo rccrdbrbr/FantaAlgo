@@ -16,12 +16,12 @@ if (isset($_POST["submit"])) {
         exit();
     }
 
-    if (UsernameEsiste($conn, $cf, $email)!== false) {
+    if (UsernameEsiste($conn, $username)!== false) {
         header("location: ../signup.php?error=usernametaken");
         exit();
     }
 
-    CreaUtente($conn, $name, $surname, $email, $cf, $via, $city, $prov, $reg, $img, $type, $pwd1);
+    CreaUtente($conn, $name, $surname, $sqname, $username, $pwd1);
 } else {
     header("location: ../signup.php");
     exit();
