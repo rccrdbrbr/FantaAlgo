@@ -41,7 +41,7 @@ https://templatemo.com/tm-537-art-factory
     </head>
 
     <body>
-
+    <?php session_start() ?>
     <!-- ***** Preloader Start ***** -->
     <div id="preloader">
         <div class="jumper">
@@ -72,10 +72,17 @@ https://templatemo.com/tm-537-art-factory
                             <li class="submenu">
                               <a href="javascript:;">Account</a>
                               <ul>
+                                <?php if (!isset($_SESSION["Username"])) {
+    ?>
                                 <li><a href="login.php">Login</a></li>
                                 <li><a href="signup.php">Registrati</a></li>
-                                <!--<li><a href="">FAQ's</a></li>
-                                <li><a href="">Blog</a></li>-->
+                                <?php
+} else {
+        ?>
+                                <li><a href="backend/logout.inc.php">Logout</a></li>
+                                <?php
+    }
+                              ?>
                               </ul>
                             </li>
                         </ul>

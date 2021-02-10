@@ -53,3 +53,26 @@ function CreaUtente($conn, $name, $surname, $sqname, $username, $pwd1)
 
     header("location: ../signup.php?error=none");
 }
+
+function LoginUser($conn, $username, $pwd)
+{
+    $usernameEsiste= UsernameEsiste($conn, $username);
+
+    if ($usernameEsiste === false) {
+        header("location: ../login.php?error=wronglogin1");
+        exit();
+    }
+
+    $hashPwd= $usernameEsiste["Pwd"];
+    $controllaPwd= password_verify($pwd, $hashPwd);
+
+    if ($controllaPwd===false) {
+        header("location: ../login.php?error=wronglogin2");
+        exit();
+    } elseif ($controllaPwd===true) {
+        session_start();
+        $_SESSION["Username"]= $usernameEsiste["Username"];
+        header("location: ../index.php");
+        exit();
+    }
+}
