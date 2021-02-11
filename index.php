@@ -51,53 +51,6 @@
     <!-- ***** Features Big Item End ***** -->
 
 
-    <!-- ***** Features Big Item Start ***** -->
-    <section class="section" id="about2">
-        <!--<div class="container">
-            <div class="row">-->
-            
-            <?php include "backend/table.inc.php" ?>
-
-
-
-                <!--<div class="left-text col-lg-5 col-md-12 col-sm-12 mobile-bottom-fix">
-                    <div class="left-heading">
-                        <h5>Curabitur aliquam eget tellus id porta</h5>
-                    </div>
-                    <p>Proin justo sapien, posuere suscipit tortor in, fermentum mattis elit. Aenean in feugiat purus.</p>
-                    <ul>
-                        <li>
-                            <img src="assets/images/about-icon-01.png" alt="">
-                            <div class="text">
-                                <h6>Nulla ultricies risus quis risus</h6>
-                                <p>You can use this website template for commercial or non-commercial purposes.</p>
-                            </div>
-                        </li>
-                        <li>
-                            <img src="assets/images/about-icon-02.png" alt="">
-                            <div class="text">
-                                <h6>Donec consequat commodo purus</h6>
-                                <p>You have no right to re-distribute this template as a downloadable ZIP file on any website.</p>
-                            </div>
-                        </li>
-                        <li>
-                            <img src="assets/images/about-icon-03.png" alt="">
-                            <div class="text">
-                                <h6>Sed placerat sollicitudin mauris</h6>
-                                <p>If you have any question or comment, please <a rel="nofollow" href="https://templatemo.com/contact">contact</a> us on TemplateMo.</p>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                <div class="right-image col-lg-7 col-md-12 col-sm-12 mobile-bottom-fix-big" data-scroll-reveal="enter right move 30px over 0.6s after 0.4s">
-                    <img src="assets/images/right-image.png" class="rounded img-fluid d-block mx-auto" alt="App">
-                </div>-->
-            </div>
-        </div>
-    </section>
-    <!-- ***** Features Big Item End ***** -->
-
-
     <!-- ***** Features Small Start ***** -->
     <section class="section" id="services">
         <div class="container">
@@ -107,56 +60,32 @@
                         <div class="icon">
                             <i><img src="assets/images/service-icon-01.png" alt=""></i>
                         </div>
-                        <h5 class="service-title">First Box Service</h5>
-                        <p>Aenean vulputate massa sed neque consectetur, ac fringilla quam aliquet. Sed a enim nec eros tempor cursus at id libero.</p>
+                        <h5 class="service-title">Nessun tipo di preferenza</h5>
+                        <p>Il nostro servizio è basato su un avanzato algoritmo, che non lascia spazio a favoritismi, i dati che troverai saranno al 100% sicuri.</p>
                         <a href="#" class="main-button">Read More</a>
                     </div>
                     <div class="item service-item">
                         <div class="icon">
-                            <i><img src="assets/images/service-icon-02.png" alt=""></i>
+                            <i><img src="assets/images/service-icon-01.png" alt=""></i>
                         </div>
-                        <h5 class="service-title">Second Box Title</h5>
-                        <p>Pellentesque vitae urna ut nisi viverra tristique quis at dolor. In non sodales dolor, id egestas quam. Aliquam erat volutpat. </p>
+                        <h5 class="service-title">Dati aggiornati e precisi</h5>
+                        <p>Il nostro team si incaricherà di aggiornare periodicamente i dati, per il massimo della precisione di calcolo.</p>
                         <a href="#" class="main-button">Discover More</a>
                     </div>
                     <div class="item service-item">
                         <div class="icon">
                             <i><img src="assets/images/service-icon-03.png" alt=""></i>
                         </div>
-                        <h5 class="service-title">Third Title Box</h5>
-                        <p>Quisque finibus libero augue, in ultrices quam dictum id. Aliquam quis tellus sit amet urna tincidunt bibendum.</p>
+                        <h5 class="service-title">Visualizzazione chiara</h5>
+                        <p>Tutti i dati saranno visualizzati nel modo in migliore, in modo da agevolare al massimo l'esperienza utente.</p>
                         <a href="#" class="main-button">More Detail</a>
                     </div>
                     <div class="item service-item">
                         <div class="icon">
                             <i><img src="assets/images/service-icon-02.png" alt=""></i>
                         </div>
-                        <h5 class="service-title">Fourth Service Box</h5>
-                        <p>Fusce sollicitudin feugiat risus, tempus faucibus arcu blandit nec. Duis auctor dolor eu scelerisque vestibulum.</p>
-                        <a href="#" class="main-button">Read More</a>
-                    </div>
-                    <div class="item service-item">
-                        <div class="icon">
-                            <i><img src="assets/images/service-icon-01.png" alt=""></i>
-                        </div>
-                        <h5 class="service-title">Fifth Service Title</h5>
-                        <p>Curabitur aliquam eget tellus id porta. Proin justo sapien, posuere suscipit tortor in, fermentum mattis elit.</p>
-                        <a href="#" class="main-button">Discover</a>
-                    </div>
-                    <div class="item service-item">
-                        <div class="icon">
-                            <i><img src="assets/images/service-icon-03.png" alt=""></i>
-                        </div>
-                        <h5 class="service-title">Sixth Box Title</h5>
-                        <p>Ut nibh velit, aliquam vitae pellentesque nec, convallis vitae lacus. Aliquam porttitor urna ut pellentesque.</p>
-                        <a href="#" class="main-button">Detail</a>
-                    </div>
-                    <div class="item service-item">
-                        <div class="icon">
-                            <i><img src="assets/images/service-icon-01.png" alt=""></i>
-                        </div>
-                        <h5 class="service-title">Seventh Title Box</h5>
-                        <p>Sed a consequat velit. Morbi lectus sapien, vestibulum et sapien sit amet, ultrices malesuada odio. Donec non quam.</p>
+                        <h5 class="service-title">Completamente gratuito</h5>
+                        <p>Eh si, perchè ci pensa il muschio, che è qua a scrivere i box che nessuno leggerà. Foooorza muschio.</p>
                         <a href="#" class="main-button">Read More</a>
                     </div>
                 </div>
@@ -173,12 +102,12 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section-heading">
-                        <h2>Frequently Asked Questions</h2>
+                        <h2>Domande frequenti</h2>
                     </div>
                 </div>
                 <div class="offset-lg-3 col-lg-6">
                     <div class="section-heading">
-                        <p>Vivamus venenatis eu mi ac mattis. Maecenas ut elementum sapien. Nunc euismod risus ac lobortis congue. Sed erat quam.</p>
+                        <p>Perchè la chiarezza è la prima delle nostre priorità. Anche se nessuno mi ha mai fatto una domanda.</p>
                     </div>
                 </div>
             </div>
@@ -186,76 +115,77 @@
 
             <div class="row">
                 <div class="left-text col-lg-6 col-md-6 col-sm-12">
-                    <h5>Class aptent taciti sociosqu ad litora torquent per conubia</h5>
+                    <h5>Prima di chiedere spiegazioni al mu provate a leggere queste domande</h5>
                     <div class="accordion-text">
-                        <p>Curabitur placerat diam in risus lobortis, laoreet porttitor est elementum. Nulla ultricies risus quis risus scelerisque, a aliquam tellus maximus. Cras pretium nulla ac convallis iaculis. Aenean bibendum erat vitae odio sodales, in facilisis tellus volutpat.</p>
-                        <p>Sed lobortis pellentesque magna ac congue. Suspendisse quis molestie magna, id eleifend ex. Ut mollis ultricies diam nec dictum. Morbi commodo hendrerit mi vel vulputate. Proin non tincidunt dui. Lorem ipsum dolor sit amet.</p>
-                        <span>Email: <a href="#">email@company.com</a><br></span>
-                        <a href="#contact-us" class="main-button">Contact Us</a>
+                        <p>La vedo davvero grigia che qualcuno sia arrivato a leggere così in fondo però io credo comunque, quindi proverò ad essere chiaro.</p>
+                        <p>A lato troverete le domande che mi sono venute in mente durante la progettazione dell'applicazione, se non dovessero essere chiare potete sempre contattarmi alla mail che segue.</p>
+                        <span>Email: <a href="#">bruttobabboscrivimi@suwhatsappp.coglione</a><br></span>
+                        <!--<a href="#contact-us" class="main-button">Contact Us</a>-->
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12">
                     <div class="accordions is-first-expanded">
                         <article class="accordion">
                             <div class="accordion-head">
-                                <span>First Common Question</span>
+                                <span>Come accedo ai miei dati?</span>
                                 <span class="icon">
                                     <i class="icon fa fa-chevron-right"></i>
                                 </span>
                             </div>
                             <div class="accordion-body">
                                 <div class="content">
-                                    <p>Duis vulputate porttitor urna sit amet pretium. Phasellus sed pulvinar eros, condimentum consequat ex. Suspendisse potenti.
+                                    <p>Dovrai chiedere le credenziali al mu, che avrà preparato degli account personali.
                                     <br><br>
-                                    Pellentesque maximus lorem sed elit imperdiet mattis. Duis posuere mauris ut eros rutrum sodales. Aliquam erat volutpat.</p>
+                                    Una volta effettuato l'accesso in alto a destra nella sezione account dovrebbe apparire la tab "Il mio account".</p>
                                 </div>
                             </div>
                         </article>
                         <article class="accordion">
                             <div class="accordion-head">
-                                <span>Second Question Answer</span>
+                                <span>Come si leggono i dati?</span>
                                 <span class="icon">
                                     <i class="icon fa fa-chevron-right"></i>
                                 </span>
                             </div>
                             <div class="accordion-body">
                                 <div class="content">
-                                    <p>Sed odio elit, cursus sed consequat at, rutrum eget augue. Cras ac eros iaculis, tempor quam sit amet, scelerisque mi. Quisque eu risus eget nunc porttitor vestibulum at a ante.
+                                    <p>Mi spiace ma questo dovete capirlo voi, non sono per nulla in grado di spiegarlo.
                                     <br><br>
-                                    Praesent ut placerat turpis, vel pellentesque dolor. Sed rutrum eleifend tortor, eu luctus orci sagittis in. In blandit fringilla mollis.</p>
+                                    Fate andare quel cervelletto per una volta daje raga. ForzacossuGIGALOL.</p>
                                 </div>
                             </div>
                         </article>
                         <article class="accordion">
                             <div class="accordion-head">
-                                <span>Third Answer for you</span>
+                                <span>Con che voglia hai fatto tutto?</span>
                                 <span class="icon">
                                     <i class="icon fa fa-chevron-right"></i>
                                 </span>
                             </div>
                             <div class="accordion-body">
                                 <div class="content">
-                                    <p>Proin feugiat ante ut vulputate rutrum. Nam quis erat turpis. Nullam maximus pharetra lorem, eu condimentum est iaculis ut. Pellentesque mattis ultrices dignissim.
+                                    <p>Bella domanda, sia perchè sono matto sia per imparare. Sembrerà una cazzata ma mi serve fare cose del genere.
                                     <br><br>
-                                    Etiam et enim finibus, feugiat massa efficitur, finibus sapien. Sed cursus lacus quis arcu scelerisque, eget ornare risus maximus. Aenean non lectus id odio rhoncus pharetra.</p>
+                                    Certo, diciamo che se venissi pagato come fanno le persone normali non sarebbe male. Vero anche che sto facendo una cosa praticamente totalmente inutile.</p>
                                 </div>
                             </div>
                         </article>
                         <article class="accordion">
                             <div class="accordion-head">
-                                <span>Fourth Question Asked</span>
+                                <span>Come funziona l'algoritmo?</span>
                                 <span class="icon">
                                     <i class="icon fa fa-chevron-right"></i>
                                 </span>
                             </div>
                             <div class="accordion-body">
                                 <div class="content">
-                                    <p>Phasellus eu purus ornare, eleifend orci nec, egestas nulla. Sed sed aliquet sapien. Proin placerat, ipsum eu posuere blandit, tellus quam consectetur nisi, id sollicitudin diam ex at nisi.
+                                    <p>Direi che potete chiedere al dema.
                                     <br><br>
-                                    Aenean fermentum eget turpis egestas semper. Sed finibus mollis venenatis. Praesent at sem in massa iaculis pharetra.</p>
+                                    E io che cazzo ne so scusa?</p>
                                 </div>
                             </div>
                         </article>
+                        <!--
                         <article class="accordion">
                             <div class="accordion-head">
                                 <span>Fifth Ever Question</span>
@@ -284,6 +214,7 @@
                                 </div>
                             </div>
                         </article>
+                      -->
                     </div>
                 </div>
             </div>
@@ -296,47 +227,24 @@
     <section class="section" id="contact-us">
         <div class="container-fluid">
             <div class="row">
-                <!-- ***** Contact Map Start ***** -->
+                <!-- ***** Contact Map Start ***** --><!--
                 <div class="col-lg-6 col-md-6 col-sm-12">
-                    <div id="map">
+                    <div id="map">-->
                       <!-- How to change your own map point
                            1. Go to Google Maps
                            2. Click on your location point
                            3. Click "Share" and choose "Embed map" tab
                            4. Copy only URL and paste it within the src="" field below
-                    -->
+                    --><!--
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1197183.8373802372!2d-1.9415093691103689!3d6.781986417238027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdb96f349e85efd%3A0xb8d1e0b88af1f0f5!2sKumasi+Central+Market!5e0!3m2!1sen!2sth!4v1532967884907" width="100%" height="500px" frameborder="0" style="border:0" allowfullscreen></iframe>
                     </div>
-                </div>
+                </div>-->
                 <!-- ***** Contact Map End ***** -->
 
                 <!-- ***** Contact Form Start ***** -->
-                <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="col-lg-12 col-md-12 col-sm-12">
                     <div class="contact-form">
-                        <form id="contact" action="" method="post">
-                          <div class="row">
-                            <div class="col-md-6 col-sm-12">
-                              <fieldset>
-                                <input name="name" type="text" id="name" placeholder="Full Name" required="" class="contact-field">
-                              </fieldset>
-                            </div>
-                            <div class="col-md-6 col-sm-12">
-                              <fieldset>
-                                <input name="email" type="text" id="email" placeholder="E-mail" required="" class="contact-field">
-                              </fieldset>
-                            </div>
-                            <div class="col-lg-12">
-                              <fieldset>
-                                <textarea name="message" rows="6" id="message" placeholder="Your Message" required="" class="contact-field"></textarea>
-                              </fieldset>
-                            </div>
-                            <div class="col-lg-12">
-                              <fieldset>
-                                <button type="submit" id="form-submit" class="main-button">Send It</button>
-                              </fieldset>
-                            </div>
-                          </div>
-                        </form>
+
                     </div>
                 </div>
                 <!-- ***** Contact Form End ***** -->

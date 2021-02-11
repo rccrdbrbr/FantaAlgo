@@ -66,9 +66,8 @@ https://templatemo.com/tm-537-art-factory
                         <ul class="nav">
                             <li class="scroll-to-section"><a href="#welcome" class="active">Home</a></li>
                             <li class="scroll-to-section"><a href="#about">Cos'è?</a></li>
-                            <li class="scroll-to-section"><a href="#services">Services</a></li>
-                            <li class="scroll-to-section"><a href="#frequently-question">Frequently Questions</a></li>
-                            <li class="scroll-to-section"><a href="table.php">Tabelle</a></li>
+                            <li class="scroll-to-section"><a href="#services">Servizi</a></li>
+                            <li class="scroll-to-section"><a href="#frequently-question">Domande frequenti</a></li>
                             <li class="submenu">
                               <a href="javascript:;">Account</a>
                               <ul>
@@ -79,6 +78,7 @@ https://templatemo.com/tm-537-art-factory
                                 <?php
 } else {
         ?>
+                                <li><a href="my-account.php">Il Mio Account</a></li>
                                 <li><a href="backend/logout.inc.php">Logout</a></li>
                                 <?php
     }
