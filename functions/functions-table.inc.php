@@ -27,7 +27,6 @@ function fillTableH($conn, $giornata, $acph, $dntrh, $kkbbh, $nazih, $sqafh, $tm
     $sql= "INSERT INTO puntiha (Giornata, HomeAway, ACP, DNTR, KKBB, NAZI, SQAF, TMBZ, VDG, WDD) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?);";
     $stmt= mysqli_stmt_init($conn);
     if (!mysqli_stmt_prepare($stmt, $sql)) {
-        //header("location: ../index.php?error=stmtfailed");
         echo "Errore nella query";
         exit();
     }
@@ -36,6 +35,8 @@ function fillTableH($conn, $giornata, $acph, $dntrh, $kkbbh, $nazih, $sqafh, $tm
     mysqli_stmt_execute($stmt);
 
     mysqli_stmt_close($stmt);
+
+    header("location: ../index.php?error=none");
 }
 
 function fillTableA($conn, $giornata, $acph, $dntrh, $kkbbh, $nazih, $sqafh, $tmbzh, $vdgh, $wddh)
@@ -44,7 +45,6 @@ function fillTableA($conn, $giornata, $acph, $dntrh, $kkbbh, $nazih, $sqafh, $tm
     $sql= "INSERT INTO puntiha (Giornata, HomeAway, ACP, DNTR, KKBB, NAZI, SQAF, TMBZ, VDG, WDD) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?);";
     $stmt= mysqli_stmt_init($conn);
     if (!mysqli_stmt_prepare($stmt, $sql)) {
-        //header("location: ../index.php?error=stmtfailed");
         echo "Errore nella query";
         exit();
     }

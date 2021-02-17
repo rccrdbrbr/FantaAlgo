@@ -26,8 +26,6 @@
       $vdga=intval(($row["VDG"]-65)/5+1);
       $wddh=intval(($row["WDD"]-65.5)/5+1);
       $wdda=intval(($row["WDD"]-65)/5+1);
-      //echo $acph, $acpa;
-      //echo "<br>";
       fillTableA($conn, $row["Giornata"], $acph, $dntrh, $kkbbh, $nazih, $sqafh, $tmbzh, $vdgh, $wddh);
       fillTableH($conn, $row["Giornata"], $acpa, $dntra, $kkbba, $nazia, $sqafa, $tmbza, $vdga, $wdda);
   }
