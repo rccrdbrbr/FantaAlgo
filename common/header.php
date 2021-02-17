@@ -79,6 +79,7 @@ https://templatemo.com/tm-537-art-factory
 } else {
         ?>
                                 <li><a href="my-account.php">Il Mio Account</a></li>
+                                <li><a href="insert.php">Inserisci Giornate</a></li>
                                 <li><a href="backend/logout.inc.php">Logout</a></li>
                                 <?php
     }
