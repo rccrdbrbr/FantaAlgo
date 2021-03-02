@@ -1,4 +1,4 @@
-<?php      include "backend/dbh.inc.php";
+<?php      include "dbh.inc.php";
   include "functions/functions-table.inc.php";
       $giornate= fetchPunteggi($conn) ?>
 
@@ -11,14 +11,14 @@
                 <table>
                   <thead>
                     <tr class="row100 head">
-                      <th class="cell100 column1">Giornata</th>
+                      <th class="cell100 column2">Giornata</th>
                     </tr>
                   </thead>
                   <tbody>
                     <?php while ($row = mysqli_fetch_assoc($giornate)) {
           ?>
                     <tr class="row100 body">
-                      <td class="cell100 column1"><?php echo $row["Giornata"] ?></td>
+                      <td class="cell100 column2"><?php echo $row["Giornata"] ?></td>
                     </tr>
                     <?php
       } ?>
