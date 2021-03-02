@@ -3,10 +3,11 @@
 <!--<section class="section" id="table">
   <div class="container">
   <div class="row">
-
+-->
 <?php
   include "backend/table.inc.php";
 ?>
+<!--
 </div>
 </div>
 </section>-->

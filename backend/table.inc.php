@@ -6,8 +6,8 @@
         <div class="row">
           <h5>Punteggi per giornata</h5>
           <div class="wrap-table100">
-            <div class="table100 ver1">
-              <div class="table100-firstcol">
+            <div class="table100 "><!--
+              <div class="table100-nextcols">
                 <table>
                   <thead>
                     <tr class="row100 head">
@@ -22,7 +22,7 @@
                     </tr>
                     <?php
       } ?>
-
+-->
                     <!--<tr class="row100 body">
                       <td class="cell100 column1">Kathy Daniels</td>
                     </tr>
@@ -46,16 +46,18 @@
                     <tr class="row100 body">
                       <td class="cell100 column1">Emily Wheeler</td>
                     </tr>
-                  -->
+                  --><!--
                   </tbody>
                 </table>
               </div>
-
-              <div class="wrap-table100-nextcols js-pscroll">
+-->
+            <!--
+            <div class="wrap-table100-nextcols js-pscroll">-->
                 <div class="table100-nextcols">
                   <table>
                     <thead>
                       <tr class="row100 head">
+                        <th class="cell100 column2">Giornata</th>
                         <th class="cell100 column2">ACP</th>
                         <th class="cell100 column3">DNTR</th>
                         <th class="cell100 column4">KKBB</th>
@@ -70,6 +72,7 @@
                       <?php  $giornate= fetchPunteggi($conn);
                        while ($row = mysqli_fetch_assoc($giornate)) { ?>
                       <tr class="row100 body">
+                        <td class="cell100 column2"><?php echo $row["Giornata"] ?></td>
                         <td class="cell100 column2"><?php echo $row["ACP"] ?></td>
                         <td class="cell100 column3"><?php echo $row["DNTR"] ?></td>
                         <td class="cell100 column4"><?php echo $row["KKBB"] ?></td>
@@ -142,7 +145,7 @@
                       </tr>-->
                     </tbody>
                   </table>
-                </div>
+              <!--</div>-->
               </div>
             </div>
           </div>
